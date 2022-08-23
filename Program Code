@@ -1,0 +1,5 @@
+num = int(input("Enter the base number: "))
+power = int(input("Enter the power: "))
+result = pow(num, power)
+print(str(num) + " raised to the power " + str(power) + " is ")
+print("= " + str(result))
